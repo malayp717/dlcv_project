@@ -52,7 +52,7 @@ We have used the publicly available **MNIST** database of handwritten digits has
 <!-- PROPOSED APPROACH -->
 ## Proposed Approach
 ### Adversarial Attacks
- 1. **Fast Gradient Sign Method (FGSM)** : The FGSM exploits the gradients of a neural network to build an adversarial image. Essentially, FGSM computes the gradients of a loss function (e.g., mean-squared error or categorical cross-entropy) with respect to the input image and then uses the sign of the gradients to create a new image (i.e., the adversarial image) that maximizes the loss. <img src="https://github.com/malayp717/dlcv_project/blob/master/pictures/fgsm_eq.png" width="35%"/> <img src="https://github.com/malayp717/dlcv_project/blob/master/pictures/fgsm.png" />
+ 1. **Fast Gradient Sign Method (FGSM)** : The FGSM exploits the gradients of a neural network to build an adversarial image. Essentially, FGSM computes the gradients of a loss function (e.g., mean-squared error or categorical cross-entropy) with respect to the input image and then uses the sign of the gradients to create a new image (i.e., the adversarial image) that maximizes the loss. <br/><img src="https://github.com/malayp717/dlcv_project/blob/master/pictures/fgsm_eq.png" width="35%"/> <br/> <img src="https://github.com/malayp717/dlcv_project/blob/master/pictures/fgsm.png" />
  2. **Projected Gradient Descent (PGD)** : Akin to i-FGSM i.e “many mini FGSM steps”. A slight difference lies in the optimization algorithm used in this approach, compared to FGSM. FGSM uses normal gradient descent steps. PGD in contrast, runs projected (normalized) steepest descent under the l∞ norm. <img src="https://github.com/malayp717/dlcv_project/blob/master/pictures/pgd.png"/>
 
 ### Proposed Defense Architecture 
