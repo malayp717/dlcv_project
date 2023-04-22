@@ -70,7 +70,7 @@ Our initial approach was a **CWGAN + GP** model. A GAN model which learns the ad
  - No need to train on adversarial images, just need to train on the original dataset, and calculate the MSE loss at inference time
  - More robust, since the inherent assumption while doing adversarial attacks is that the perturbation is small. Therefore, adversarial training is not needed
  - At inference, we just need to find the label corresponding to the minimum loss with the adversarial image, so it can defend against multiple attacks at once
- <img src="https://github.com/malayp717/dlcv_project/blob/master/pictures/prev.png"/>
+ <img src="https://github.com/malayp717/dlcv_project/blob/master/pictures/prev_arc.png"/>
  
 **Why did this not work?**
 - GANs are notoriously hard to train, because of alternating optimization (modal collapse, can diverge, etc), and need a very large number of epochs to learn the original dataset distribution.
