@@ -44,6 +44,7 @@ We explore two kinds of adversarial attacks namely **Fast Gradient Sign Method (
 
 <!-- CODE EXECUTION -->
 ## Code Execution
+Download the pre-trained models from here (https://drive.google.com/file/d/1iLZd5cCLaI_-KDeW25TwVOocCwgjj0-0/view?usp=share_link)  
 For analysis of the adversarial attacks, execute the following `.ipynb` files - 
  - **FGSM Attack** :
       - `fgsm_cifar10.ipynb` for analysis on the CIFAR-10 dataset
