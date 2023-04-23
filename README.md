@@ -23,6 +23,7 @@
   <ol>
     <li>
       <a href="#problem-definition">Problem Definition</a>     </li>
+    <li> <a href="#code-execution">Code Execution</a> </li>
     <li><a href="#datasets-used">Datasets Used</a></li>
     <li>
       <a href="#proposed-approach">Proposed Approach</a> </li>
@@ -40,6 +41,24 @@ Adversarial attacks are imperceptible changes to inputs which cause neural netwo
 We explore two kinds of adversarial attacks namely **Fast Gradient Sign Method (FGSM)** and **Projected Gradient Descent (PGD)** on the MNIST and CIFAR-10 dataset and defend these using variational auto-encoders.
 
 <img src="https://github.com/malayp717/dlcv_project/blob/master/pictures/example.png" />
+
+<!-- CODE EXECUTION -->
+## Code Execution
+For analysis of the adversarial attacks, execute the following `.ipynb` files - 
+ - **FGSM Attack** :
+      - `fgsm_cifar10.ipynb` for analysis on the CIFAR-10 dataset
+      - `fgsm_mnist.ipynb` for analysis on the MNIST dataset
+ - **PGD Attack** :
+      - `pgd_cifar10.ipynb` for analysis on the CIFAR-10 dataset
+      - `pgd_mnist.ipynb` for analysis on the MNIST dataset
+      
+ For training the autoencoder, execute the following `.ipynb` files - 
+ - `ae_cifar10_train.ipynb` for training on the CIFAR-10 dataset
+ - `ae_mnist_train.ipynb` for training on the MNIST dataset
+ 
+ For getting the inference result, execute the following `.ipynb` files - 
+ - `ae_cifar10_inference.ipynb` for training on the CIFAR-10 dataset
+ - `ae_mnist_inference.ipynb` for training on the MNIST dataset
 
 
 <!-- DATASETS USED -->
