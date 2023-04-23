@@ -60,6 +60,8 @@ For analysis of the adversarial attacks, execute the following `.ipynb` files -
  - `ae_cifar10_inference.ipynb` for training on the CIFAR-10 dataset
  - `ae_mnist_inference.ipynb` for training on the MNIST dataset
 
+Note : Since we have trained most of our models online on platforms like Google Colab and Kaggle, in some of the `.ipynb` files, the file path maybe a bit incorrect.
+
 
 <!-- DATASETS USED -->
 ## Datasets Used
